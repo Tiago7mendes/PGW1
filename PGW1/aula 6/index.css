@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #333;
+    background-color: deeppink;
+    margin: 0px;/*é fora da caixa?*/
+    padding: 10px;/*é dentro da caixa*/
+}
+header{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 20px;
+}
+header h1{
+    background-color: bisque;
+    color: brown;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none; /*remove as bolinhas*/
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 35px;
+}
+nav ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+}
+section{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: darkorchid;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
