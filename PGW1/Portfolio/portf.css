@@ -1,0 +1,81 @@
+div.circulo{
+    border: 2px solid orangered;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom,
+     yellow, red);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+header{
+    height: 1px;
+}
+h1,h2, h3, h4, h5{
+    color:orangered;
+    transition: color 0.3s ease;
+}
+h2{
+    margin-left: 5%;
+}
+div.quadrado{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid orangered;
+    width: 280px;
+    height: 180px;
+    background-color:orange;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 8px;
+    margin-left: 20px;
+}
+div.quadrado :hover{
+    transform: scale(1.04);
+}
+div.circulo :hover{
+    transform: scale(1.04);
+}
+tr :hover{
+    transform: scale(1.04);
+}
+h1{
+    text-align: center;
+}
+a, img{
+    height: 40%; width: 40%;
+    float: right;
+    margin-right: 25%;
+    border-radius: 20%;
+}
+hr{
+    color: red;
+}
+th, td {
+    border: 1px solid  orangered;
+    text-align: left; 
+    padding: 8px; 
+    color:  orangered;
+  }
+  tr{
+    background-color: orange;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Open Sans';
+}
+header :hover{
+    color:crimson;
+    transition: 0.5s;
+}
