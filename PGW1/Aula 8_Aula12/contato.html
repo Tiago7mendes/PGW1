@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Reciclagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="voltar">
+        <h1>Blog de reciclagem</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="impactos.html">Impactos Ambientais</a></li>
+            <li><a href="processo.html">Processo de Reciclagem</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="formulario-container"> 
+        <form action="acao.html" method="post" enctype="multipart/form-data" class="formulario">
+            <label>Nome: </label> 
+            <input class="input" type="text" name="name" id="name" required>
+            <br><br>
+            <label>Email: </label>
+            <input class="input" type="email" name="email" id="email" required>  
+            <br><br> 
+            <label>Senha do Email: </label>
+            <input class="input" type="password" name="password" id="password" required>
+            <br><br>
+            <label>Comentário: </label> 
+            <textarea class="input" name="textarea" id="textarea" cols="50" rows="4"></textarea>
+            <div class="buttons-formulario">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </div>
+        </form> 
+        </section> 
+        <section class="botao-section">
+            <h2>Faça parte da nossa campanha</h2>
+            <a href="https://www.instagram.com/ifsp_verde_ofc/" class="button" style="color: navajowhite;">Saiba Mais</a>
+        </section>
+
+        <section class="box-section">
+            <h2>Contato</h2>
+            <a href="https://www.instagram.com/ifsp_verde_ofc/">
+                <img class="img" height="300px" width="500px" src="https://sustentabilidadenoar.com.br/wp-content/uploads/2019/10/capa-10-800x445.png" class="box">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <a href="#voltar">Voltar ao topo</a>
+        <p>&copy; 2024 Meu Blog de Reciclagem</p>
+    </footer>
+</body>
+</html>
